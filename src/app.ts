@@ -40,7 +40,7 @@ const main = async () => {
   const adapterProvider = createProvider(Provider);
   const adapterDB = new Database();
 
-  const { handleCtx, httpServer } = await createBot({
+  const { httpServer } = await createBot({
     flow: adapterFlow,
     provider: adapterProvider,
     database: adapterDB,
