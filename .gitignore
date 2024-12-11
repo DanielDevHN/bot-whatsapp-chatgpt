@@ -31,3 +31,11 @@ Thumbs.db
 # Miscellaneous
 *.bak
 *.tmp
+
+# Sessions
+/bot_sessions
+*_sessions/
+
+google-key.json
+.log
+.png
